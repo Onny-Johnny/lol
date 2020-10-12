@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+.all {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.date {
+    background-color: rgb(51, 177, 179);
+    color: white;
+    font-family: 'Lato Regular', sans-serif;
+    size: 1.5em;
+}
+.temperature {
+    text-align: center; 
+    font-family: 'Lato Bold', sans-serif;
+    size: 2em;
+}
+
+.day {
+    height: 150px;
+    width: 100px;
+    margin-right: 5px;
+}
+.day:hover {
+    box-shadow: 0px 0px 20px -2px rgba(56,55,56,1);
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+img {
+    height: 100px;
+    width: 100px;
+    transform: scale(0.8);
+}
+

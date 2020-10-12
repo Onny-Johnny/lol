@@ -1,0 +1,28 @@
+.round {
+    width: 10em;
+  height: 10em;
+  border: 2px solid darkgreen;
+  border-radius: 50%;
+  overflow: hidden;
+  background: darkolivegreen;
+  }
+ .round {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    50% {
+      left: 100%;
+      margin-left: 80%;
+      
+    }
+  }
+  .round:hover  {
+    box-shadow: 0px 0px 20px -2px rgba(56,55,56,1);
+    border: 2px solid darkred;
+    background-color: rgb(172, 62, 62);
+    cursor: pointer;
+    transition: 2s;
+}

@@ -1,0 +1,17 @@
+
+.text {
+    width: 600px;
+    border: 2px solid rgb(17, 59, 198); 
+    border-radius: 4px;
+    color: green;
+}
+.text:hover {
+    color: rgb(255, 0, 0);
+}
+.find:hover {
+    color: rgb(255, 0, 0);
+}
+.find {
+    margin: -5px;
+    color: green;
+}

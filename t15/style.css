@@ -1,0 +1,15 @@
+.glove {
+    height: 300px;
+}
+.man {
+    height: 100px;
+}
+.man2 {
+    height: 100px;
+}
+.glove:hover ~ div  > .man:nth-child(2n+1){
+    visibility: hidden;
+}
+.glove:hover ~ div > .man2:nth-child(2n+2){
+    visibility: hidden;
+}

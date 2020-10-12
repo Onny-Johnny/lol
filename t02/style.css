@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-color: gray;
+}
+td {
+    border: 1px solid rgb(191, 191, 191);
+}
+    .first {background-color: black;}
+    .first {color: white;}
+    .second {background-color: rgb(184, 139, 55);}
+    .third {background-color: green;}
+    .fourth {background-color: rgb(50, 50, 177);}
+    .fifth {background-color: rgb(255, 250, 110);}
+    .sixth {background-color: rgb(182, 55, 55);}
+    .seventh {background-color: rgb(92, 68, 177);}
+    .link {text-align: center;}
+
+    .borderElement {
+        border-radius: 25px;
+      }
+      img {
+          height: 120px; width: 120px;
+          padding: 10px;
+    }
+
+    

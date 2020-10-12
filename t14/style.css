@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+.top {
+    position: relative;
+    z-index: 3;
+    float: left;
+    margin: 283px -325px 0;
+    width: 60px; 
+    height: 75px;
+    background:linear-gradient(0deg, rgb(72, 40, 20), white);
+    border-radius: 90%;
+    box-shadow: 0px -20px 30px -1px white;
+}
+.fire {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 100px 170px 0;
+    background: linear-gradient(134deg, rgb(234, 54, 36)30%,  rgb(243, 180, 68)70%);
+    border-radius: 0 100% 100% 100%;
+    transform: rotateZ(45deg);
+    box-shadow: 0px 0px 20px -2px rgb(234, 54, 36) ;
+}
+.stick {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 50px; 
+    height: 550px;
+    margin: 300px -320px 0;
+    background:linear-gradient(to right, rgb(133, 71, 35),rgb(166, 121, 80), rgb(227, 164, 106));
+}

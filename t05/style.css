@@ -1,0 +1,88 @@
+body {
+  font-family: Verdana;
+}
+
+/*--------------for all <div>----------*/
+.set-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*------------board-------------*/
+.board {
+  margin: 40px;
+  height: 140px;
+  width: 270px;
+  position: relative;
+  border-radius: 5px;
+  
+}
+
+.cap{
+  background: linear-gradient(#4568DC, #B06AB3 );
+}
+
+.iron-man{
+  background: linear-gradient(#e52d27, #b31217 );
+}
+
+.black-widowq{
+  background: linear-gradient(#000, #61045F );
+}
+
+.spider-man{
+  background: linear-gradient(#e52d27, #000 );
+}
+
+/*------------------image------------*/
+.img {
+  height: 182px;
+  position: absolute;
+  bottom: -11px;
+  transform: scale(0.87);
+}
+
+.spider {
+  height: 182px;
+  position: absolute;
+  top: -11px;
+  transform: scale(0.87);
+}
+
+/*----------------text-----------------*/
+
+.name {
+  margin: 10px 10px 0 0;
+  font-size: 12px;
+  text-align: right;
+  color: white;
+}
+
+.real-name {
+  margin: 0 10px 0 0;
+  font-size: 9px;
+  text-align: right;
+  color: rgba(255, 255,255, 0.5);
+
+}
+
+
+/*-----------------------adaptive---------------*/
+
+@media screen and (min-width: 1250px){
+.set-board {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 600px){
+  .set-board {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 200px){
+  .set-board {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
